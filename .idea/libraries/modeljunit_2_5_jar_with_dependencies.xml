@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="modeljunit-2.5-jar-with-dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/modeljunit-2.5-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ATM.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
