@@ -10,6 +10,7 @@ public class ATMAdapter {
     
     public void reset() {
         System.out.println("Reset !!!");
+        System.out.println("");
         sut = new ATM();
     }
     
@@ -62,7 +63,7 @@ public class ATMAdapter {
     }
 
     public void enterValidAmount(){
-        System.out.println("Draw 50€ (enough). Money left on account : ");
+        System.out.println("Draw 50€ (enough).");
         sut.chooseAmount(50);
     }
 
@@ -88,7 +89,13 @@ public class ATMAdapter {
 
     public void takeBills(){
         System.out.println("Bill taken");
-        sut.takeBills();
+        int[] billsT = sut.takeBills();
+        int lenght = billsT.length;
+        for (int i = 0; i < lenght; i++){
+            System.out.print(billsT[i]+"€ ");
+        }
+        System.out.println("");
+
     }
 
     public void swallowCard(){

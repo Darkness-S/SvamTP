@@ -10,6 +10,7 @@ public class ATM_FSM implements FsmModel{
 int retry;
 int amount;
 boolean swallowed;
+boolean blocked;
 
 /**
  *  Very first version of the FSM.
@@ -31,6 +32,7 @@ boolean swallowed;
         retry = 3;
         amount = 100;
         swallowed = false;
+        blocked = false;
         adapter = new ATMAdapter();
     }
 
@@ -53,6 +55,7 @@ boolean swallowed;
         retry = 3;
         amount = 100;
         swallowed = false;
+        blocked = false;
         adapter.reset();
         adapter = new ATMAdapter();
     }
@@ -60,7 +63,7 @@ boolean swallowed;
     /**
      *  Guard for the transition. Should be named after the transition name, suffixed by "Guard"
      */
-    public boolean insertCardGuard() { return (state == 0 && !swallowed); }
+    public boolean insertCardGuard() { return (state == 0 && !swallowed && !blocked); }
     /**
      *  Transition itself. Annotated with @Action to indicate the method is a transition of the FSM.
      */
@@ -160,6 +163,7 @@ boolean swallowed;
     public void blockCard()
     {
         state = 4;
+        blocked = true;
         adapter.blockCard();
     }
 
@@ -292,7 +296,7 @@ boolean swallowed;
         tester.addCoverageMetric(new ActionCoverage());
 
         // run the test generation (10 steps)  <-- CAN BE INCREASED TO PRODUCE MORE TESTS!
-        tester.generate(26);
+        tester.generate(40);
         patTem.automate11();
         patTem.automate12();
 
