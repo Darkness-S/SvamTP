@@ -23,9 +23,15 @@ public class TemporalyPattern  {
         s0.addTransition(s1,"E1",'1');
         s0.addTransition(s2,"E0",'0');
         s0.addTransition(s0,"somme-{E0,E1}",'o');
-        s1.addTransition(s1,"somme",'s');
-        s2.addTransition(sx,"E1",'x');
-        s2.addTransition(s2,"somme-{E2,E0}",'d');
+        s1.addTransition(s1,"somme",'o');
+        s1.addTransition(s1,"somme",'1');
+        s1.addTransition(s1,"somme",'0');
+        s2.addTransition(sx,"E1",'1');
+        s2.addTransition(s2,"somme-{E1}",'o');
+        s2.addTransition(s2,"somme-{E1}",'0');
+        sx.addTransition(sx, "somme", '0');
+        sx.addTransition(sx, "somme", '1');
+        sx.addTransition(sx, "somme", 'o');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
 
@@ -47,12 +53,16 @@ public class TemporalyPattern  {
         sx.setBlock();
 
         s0.addTransition(s0,"somme-{E1}",'o');
+        s0.addTransition(s0,"somme-{E1}",'0');
+        s0.addTransition(s0,"somme-{E1}",'2');
         s0.addTransition(s1,"E1",'1');
         s1.addTransition(s0,"E2",'2');
-        s1.addTransition(s1,"somme-{E2,E0}",'d');
+        s1.addTransition(s1,"somme-{E2,E0}",'o');
+        s1.addTransition(s1,"somme-{E2,E0}",'1');
         s1.addTransition(sx,"E0",'0');
-
-
+        sx.addTransition(sx,"somme",'0');
+        sx.addTransition(sx,"somme",'1');
+        sx.addTransition(sx,"somme",'o');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
         return automaton;
@@ -73,12 +83,19 @@ public class TemporalyPattern  {
 
         s1.setFinal();
         sx.setBlock();
+
         s0.addTransition(s1,"E1",'1');
         s0.addTransition(s2,"E0",'0');
         s0.addTransition(s0,"somme-{E0,E1}",'o');
-        s1.addTransition(s1,"somme",'s');
-        s2.addTransition(sx,"E1",'x');
-        s2.addTransition(s2,"somme-{E2,E0}",'d');
+        s1.addTransition(s1,"somme",'o');
+        s1.addTransition(s1,"somme",'1');
+        s1.addTransition(s1,"somme",'0');
+        s2.addTransition(sx,"E1",'1');
+        s2.addTransition(s2,"somme-{E1}",'o');
+        s2.addTransition(s2,"somme-{E1}",'0');
+        sx.addTransition(sx, "somme", '0');
+        sx.addTransition(sx, "somme", '1');
+        sx.addTransition(sx, "somme", 'o');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
 
@@ -100,12 +117,16 @@ public class TemporalyPattern  {
         sx.setBlock();
 
         s0.addTransition(s0,"somme-{E1}",'o');
+        s0.addTransition(s0,"somme-{E1}",'0');
+        s0.addTransition(s0,"somme-{E1}",'2');
         s0.addTransition(s1,"E1",'1');
         s1.addTransition(s0,"E2",'2');
-        s1.addTransition(s1,"somme-{E2,E0}",'d');
+        s1.addTransition(s1,"somme-{E2,E0}",'o');
+        s1.addTransition(s1,"somme-{E2,E0}",'1');
         s1.addTransition(sx,"E0",'0');
-
-
+        sx.addTransition(sx,"somme",'0');
+        sx.addTransition(sx,"somme",'1');
+        sx.addTransition(sx,"somme",'o');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
         return automaton;
@@ -129,9 +150,15 @@ public class TemporalyPattern  {
         s0.addTransition(s1,"E1",'1');
         s0.addTransition(s2,"E0",'0');
         s0.addTransition(s0,"somme-{E0,E1}",'o');
-        s1.addTransition(s1,"somme",'s');
-        s2.addTransition(sx,"E1",'x');
-        s2.addTransition(s2,"somme-{E2,E0}",'d');
+        s1.addTransition(s1,"somme",'o');
+        s1.addTransition(s1,"somme",'1');
+        s1.addTransition(s1,"somme",'0');
+        s2.addTransition(sx,"E1",'1');
+        s2.addTransition(s2,"somme-{E1}",'o');
+        s2.addTransition(s2,"somme-{E1}",'0');
+        sx.addTransition(sx, "somme", '0');
+        sx.addTransition(sx, "somme", '1');
+        sx.addTransition(sx, "somme", 'o');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
 
@@ -139,7 +166,8 @@ public class TemporalyPattern  {
 
     }
 
-    /** eventually select_amount(E0) at least 0 times
+    /** eventually select_amount(E0)
+     * at least 0 times
      * between pin_OK (E1)
      * and card_ejection (E2)
      */
@@ -147,14 +175,17 @@ public class TemporalyPattern  {
     public FiniteAutomaton automate52(){
         final FiniteState s0 = new FiniteState("s0");
         final FiniteState s1 = new FiniteState("s1");
+
         s0.setFinal();
 
-        s0.addTransition(s0,"somme-{E1}",'s');
+        s0.addTransition(s0,"somme-{E1}",'o');
+        s0.addTransition(s0,"somme-{E1}",'0');
+        s0.addTransition(s0,"somme-{E1}",'2');
         s0.addTransition(s1,"E1",'1');
         s1.addTransition(s0,"E2",'2');
         s1.addTransition(s1,"E0",'0');
-        s1.addTransition(s1,"somme-{E0,E2}",'d');
-
+        s1.addTransition(s1,"somme-{E0,E2}",'o');
+        s1.addTransition(s1,"somme-{E0,E2}",'1');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
 
@@ -177,8 +208,13 @@ public class TemporalyPattern  {
 
         s0.addTransition(s1,"E1",'1');
         s0.addTransition(s0,"somme-{E1}",'o');
-        s1.addTransition(sx,"somme-{E0}",'s');
+        s0.addTransition(s0,"somme-{E1}",'0');
+        s1.addTransition(sx,"somme-{E0}",'o');
+        s1.addTransition(sx,"somme-{E0}",'1');
         s1.addTransition(s0,"E0",'0');
+        sx.addTransition(sx, "somme",'0');
+        sx.addTransition(sx, "somme",'1');
+        sx.addTransition(sx, "somme",'o');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
 
@@ -198,20 +234,27 @@ public class TemporalyPattern  {
         s0.setFinal();
         sx.setBlock();
 
-        s0.addTransition(s1,"E1",'1');
         s0.addTransition(s0,"somme-{E1}",'o');
-        s1.addTransition(s1,"somme-{E0,E2}",'s');
+        s0.addTransition(s0,"somme-{E1}",'0');
+        s0.addTransition(s0,"somme-{E1}",'2');
+        s0.addTransition(s1,"E1",'1');
         s1.addTransition(s0,"E2",'2');
+        s1.addTransition(s1,"somme-{E0,E2}",'o');
+        s1.addTransition(s1,"somme-{E0,E2}",'1');
         s1.addTransition(sx,"E0",'0');
+        sx.addTransition(sx,"somme",'0');
+        sx.addTransition(sx,"somme",'1');
+        sx.addTransition(sx,"somme",'o');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
 
         return automaton;
     }
 
-    /** eventually bill_ejection(E0) at least 1 time
+    /** eventually bill_ejection(E0)
+     *  at least 1 time
      *  between card_ejection (E1)
-     * and Wait(E2)
+     *  and Wait(E2)
      */
 
 
@@ -226,12 +269,20 @@ public class TemporalyPattern  {
 
         s0.addTransition(s1,"E1",'1');
         s0.addTransition(s0,"somme-{E1}",'o');
-        s1.addTransition(s1,"somme-{E0,E2}",'s');
+        s0.addTransition(s0,"somme-{E1}",'0');
+        s0.addTransition(s0,"somme-{E1}",'2');
+        s1.addTransition(s1,"somme-{E0,E2}",'o');
+        s1.addTransition(s1,"somme-{E0,E2}",'1');
         s1.addTransition(s2,"E0",'0');
         s1.addTransition(s0,"E2",'2');
         s2.addTransition(s0,"E2",'2');
-        s2.addTransition(s2,"somme-{E0,E2}",'d');
+        s2.addTransition(s2,"somme-{E0,E2}",'s');
+        s2.addTransition(s2,"somme-{E0,E2}",'1');
         s2.addTransition(sx,"E0",'0');
+        sx.addTransition(sx,"somme",'0');
+        sx.addTransition(sx,"somme",'1');
+        sx.addTransition(sx,"somme",'2');
+        sx.addTransition(sx,"somme",'o');
 
         FiniteAutomaton automaton = new FiniteAutomaton(s0);
 

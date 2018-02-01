@@ -11,6 +11,17 @@ int retry;
 int amount;
 boolean swallowed;
 boolean blocked;
+String testAuth11;
+String testAuth12;
+String testAuth21;
+String testAuth22;
+String testAuth51;
+String testAuth52;
+String testAuth61;
+String testAuth62;
+String testAuth63;
+
+
 
 /**
  *  Very first version of the FSM.
@@ -22,6 +33,8 @@ boolean blocked;
 
     /** Variable representing the current state */
     private ATMAdapter adapter;
+    TemporalyPattern patTem;
+
 
     /**
      *  Constructor. Initializes the data.
@@ -31,6 +44,17 @@ boolean blocked;
         state = 0;
         retry = 3;
         amount = 100;
+        testAuth11 = "";
+        testAuth11 = "";
+        testAuth12 = "";
+        testAuth21 = "";
+        testAuth22 = "";
+        testAuth51 = "";
+        testAuth52 = "";
+        testAuth61 = "";
+        testAuth62 = "";
+        testAuth63 = "";
+        patTem = new TemporalyPattern();
         swallowed = false;
         blocked = false;
         adapter = new ATMAdapter();
@@ -56,7 +80,18 @@ boolean blocked;
         amount = 100;
         swallowed = false;
         blocked = false;
+        testAuth11 = "";
+        testAuth11 = "";
+        testAuth12 = "";
+        testAuth21 = "";
+        testAuth22 = "";
+        testAuth51 = "";
+        testAuth52 = "";
+        testAuth61 = "";
+        testAuth62 = "";
+        testAuth63 = "";
         adapter.reset();
+        patTem = new TemporalyPattern();
         adapter = new ATMAdapter();
     }
 
@@ -73,6 +108,15 @@ boolean blocked;
         // evolution of the state
         state = 1;
         // realizes the transition on the System Under Test
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += 'o';
+        testAuth62 += '1';
+        testAuth63 += 'o';
         adapter.insertCard();
     }
 
@@ -82,6 +126,15 @@ boolean blocked;
     public void insertIncorrectCard()
     {
         state = 2;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += 'o';
+        testAuth62 += 'o';
+        testAuth63 += 'o';
         adapter.insertIncorrectCard();
     }
 
@@ -91,7 +144,18 @@ boolean blocked;
     public void insertSwallowedCard()
     {
         adapter.insertSwallowedCard();
-        reset(true);
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += '0';
+        testAuth62 += '0';
+        testAuth63 += '2';
+        System.out.println("Check property 61 : "+patTem.automate61().testWord(testAuth61));
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
+        System.out.println("Check property 63 : "+patTem.automate63().testWord(testAuth63));
     }
 
     /**
@@ -106,6 +170,16 @@ boolean blocked;
     {
         // evolution of the state
         state = 2;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += '1';
+        testAuth22 += '1';
+        testAuth51 += 'o';
+        testAuth52 += '2';
+        testAuth61 += '1';
+        testAuth62 += '2';
+        testAuth63 += '1';
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
         // transmits the operation to the System Under Test
         adapter.cancel();
     }
@@ -116,15 +190,39 @@ boolean blocked;
     public void takeCardCancel()
     {
         state = 0;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += '2';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += '0';
+        testAuth62 += '0';
+        testAuth63 += '2';
+        System.out.println("Check property 61 : "+patTem.automate61().testWord(testAuth61));
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
+        System.out.println("Check property 63 : "+patTem.automate63().testWord(testAuth63));
         adapter.takeCard();
     }
 
-    public boolean swallowCardGuard(){ return state == 2;}
+    public boolean swallowCardGuard(){ return (state == 2 || state == 5);}
 
     @Action
     public void swallowCard()
     {
         state = 0;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += '0';
+        testAuth62 += '0';
+        testAuth63 += '2';
+        System.out.println("Check property 61 : "+patTem.automate61().testWord(testAuth61));
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
+        System.out.println("Check property 63 : "+patTem.automate63().testWord(testAuth63));
         swallowed = true;
         adapter.swallowCard();
     }
@@ -135,6 +233,15 @@ boolean blocked;
     public void pinCorrect()
     {
         state = 6;
+        testAuth11 += '1';
+        testAuth12 += '2';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += '1';
+        testAuth52 += '1';
+        testAuth61 += 'o';
+        testAuth62 += 'o';
+        testAuth63 += 'o';
         adapter.inputPinCorrect();
     }
 
@@ -145,6 +252,15 @@ boolean blocked;
     {
         state = 3;
         retry--;
+        testAuth11 += 'o';
+        testAuth12 += '1';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += 'o';
+        testAuth62 += 'o';
+        testAuth63 += 'o';
         adapter.inputPinIncorrect();
     }
 
@@ -154,6 +270,15 @@ boolean blocked;
     public void retryPin()
     {
         state = 1;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += 'o';
+        testAuth62 += '1';
+        testAuth63 += 'o';
         adapter.retryPin();
     }
 
@@ -164,6 +289,15 @@ boolean blocked;
     {
         state = 4;
         blocked = true;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += 'o';
+        testAuth62 += 'o';
+        testAuth63 += 'o';
         adapter.blockCard();
     }
 
@@ -173,6 +307,16 @@ boolean blocked;
     public void cardBlockedEjection()
     {
         state = 5;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += '1';
+        testAuth22 += '1';
+        testAuth51 += 'o';
+        testAuth52 += '2';
+        testAuth61 += '1';
+        testAuth62 += '2';
+        testAuth63 += '1';
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
         adapter.cardBlockedEjection();
     }
 
@@ -182,6 +326,18 @@ boolean blocked;
     public void cardBlockedTaken()
     {
         state = 0;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += '2';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += '0';
+        testAuth62 += '0';
+        testAuth63 += '2';
+        System.out.println("Check property 61 : "+patTem.automate61().testWord(testAuth61));
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
+        System.out.println("Check property 63 : "+patTem.automate63().testWord(testAuth63));
         adapter.takeCard();
     }
 
@@ -192,6 +348,19 @@ boolean blocked;
     {
         state = 7;
         amount = amount - 50;
+        System.out.println("Check property 51 : "+patTem.automate51().testWord(testAuth51));
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += '1';
+        testAuth22 += '1';
+        testAuth51 += '0';
+        testAuth51 += 'o';
+        testAuth52 += '0';
+        testAuth52 += '2';
+        testAuth61 += '1';
+        testAuth62 += '2';
+        testAuth63 += '1';
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
         adapter.enterValidAmount();
     }
 
@@ -201,6 +370,19 @@ boolean blocked;
     public void enterInvalidAmount()
     {
         state = 2;
+        System.out.println("Check property 51 : "+patTem.automate51().testWord(testAuth51));
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += '1';
+        testAuth22 += '1';
+        testAuth51 += '0';
+        testAuth51 += 'o';
+        testAuth52 += '0';
+        testAuth52 += '2';
+        testAuth61 += '1';
+        testAuth62 += '2';
+        testAuth63 += '1';
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
         adapter.enterInvalidAmount();
     }
 
@@ -210,6 +392,19 @@ boolean blocked;
     public void takeCardToGetBills()
     {
         state = 8;
+        System.out.println("Check property 52 : "+patTem.automate52().testWord(testAuth52));
+        testAuth11 += '0';
+        testAuth12 += '0';
+        testAuth21 += '0';
+        testAuth22 += '2';
+        testAuth22 += '0';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += 'o';
+        testAuth62 += '0';
+        testAuth63 += '0';
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
+        System.out.println("Check property 63 : "+patTem.automate63().testWord(testAuth63));
         adapter.takeCardToGetBills();
     }
 
@@ -220,6 +415,18 @@ boolean blocked;
     {
         state = 0;
         swallowed = true;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += '0';
+        testAuth62 += '0';
+        testAuth63 += '2';
+        System.out.println("Check property 61 : "+patTem.automate61().testWord(testAuth61));
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
+        System.out.println("Check property 63 : "+patTem.automate63().testWord(testAuth63));
         adapter.swallowCard();
     }
 
@@ -229,6 +436,19 @@ boolean blocked;
     public void takeBills()
     {
         state = 0;
+        System.out.println("Check property 11 : "+patTem.automate11().testWord(testAuth11));
+        System.out.println("Check property 12 : "+patTem.automate12().testWord(testAuth12));
+        System.out.println("Check property 21 : "+patTem.automate21().testWord(testAuth21));
+        System.out.println("Check property 22 : "+patTem.automate22().testWord(testAuth22));
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += 'o';
+        testAuth62 += 'o';
+        testAuth63 += 'o';
         adapter.takeBills();
     }
 
@@ -238,6 +458,18 @@ boolean blocked;
     public void billsSwallowed()
     {
         state = 0;
+        testAuth11 += 'o';
+        testAuth12 += 'o';
+        testAuth21 += 'o';
+        testAuth22 += 'o';
+        testAuth51 += 'o';
+        testAuth52 += 'o';
+        testAuth61 += '0';
+        testAuth62 += '0';
+        testAuth63 += '2';
+        System.out.println("Check property 61 : "+patTem.automate61().testWord(testAuth61));
+        System.out.println("Check property 62 : "+patTem.automate62().testWord(testAuth62));
+        System.out.println("Check property 63 : "+patTem.automate63().testWord(testAuth63));
         adapter.swallowBills();
     }
 
@@ -245,10 +477,9 @@ boolean blocked;
      * Main program
      */
     public static void main(String[] argv) {
-
         // initialization of the model
         ATM_FSM model = new ATM_FSM();
-        TemporalyPattern patTem = new TemporalyPattern();
+
 
         /**
          * Test a system by making random walks through an EFSM model of the system.
@@ -297,11 +528,11 @@ boolean blocked;
 
         // run the test generation (10 steps)  <-- CAN BE INCREASED TO PRODUCE MORE TESTS!
         tester.generate(40);
-        patTem.automate11();
-        patTem.automate12();
+
 
         // prints the coverage and quits the execution
         tester.printCoverage();
+
     }
 }
 

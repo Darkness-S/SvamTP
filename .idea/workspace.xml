@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f80731a-32ef-44e1-a7b6-db13c81b28e4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/automaton/State.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/automaton/Transition.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomaton.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomatonTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteTransition.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/26972263_10212792389819424_1850296816_o.png" afterPath="$PROJECT_DIR$/26972263_10212792389819424_1850296816_o.png" />
+      <change beforePath="$PROJECT_DIR$/lib/ATM.jar" afterPath="$PROJECT_DIR$/lib/ATM.jar" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SVAM/ATMAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/SVAM/ATMAdapter.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SVAM/ATM_FSM.java" afterPath="$PROJECT_DIR$/src/main/java/SVAM/ATM_FSM.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SVAM/App.java" afterPath="$PROJECT_DIR$/src/main/java/SVAM/App.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SVAM/SampleFSM.java" afterPath="$PROJECT_DIR$/src/main/java/SVAM/SampleFSM.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java" afterPath="$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automaton/State.java" afterPath="$PROJECT_DIR$/src/main/java/automaton/State.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automaton/Transition.java" afterPath="$PROJECT_DIR$/src/main/java/automaton/Transition.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomaton.java" afterPath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomaton.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomatonTest.java" afterPath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomatonTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteState.java" afterPath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteState.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteTransition.java" afterPath="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteTransition.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SVAM/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/SVAM/AppTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,113 +25,113 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="26972263_10212792389819424_1850296816_o.png" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/26972263_10212792389819424_1850296816_o.png">
+                <provider selected="true" editor-type-id="images">
+                  <state />
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ATM_FSM.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/ATM_FSM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="295" column="25" lean-forward="false" selection-start-line="295" selection-start-column="25" selection-end-line="295" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleFSM.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/SampleFSM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
-              <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FiniteState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-997">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemporalyPattern.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ATMAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/ATMAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SVAM/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FiniteTransition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteTransition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FiniteAutomatonTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomatonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/automaton/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.49660704">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ATMAdapter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/ATMAdapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ATM_FSM.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/ATM_FSM.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-600">
+                  <caret line="471" column="45" lean-forward="false" selection-start-line="471" selection-start-column="45" selection-end-line="471" selection-end-column="45" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TemporalyPattern.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="976">
+                  <caret line="210" column="43" lean-forward="false" selection-start-line="210" selection-start-column="43" selection-end-line="210" selection-end-column="43" />
+                  <folding>
+                    <element signature="method#automate11#0;class#TemporalyPattern#0" expanded="false" />
+                    <element signature="method#automate12#0;class#TemporalyPattern#0" expanded="false" />
+                    <element signature="method#automate21#0;class#TemporalyPattern#0" expanded="false" />
+                    <element signature="method#automate22#0;class#TemporalyPattern#0" expanded="false" />
+                    <element signature="method#automate51#0;class#TemporalyPattern#0" expanded="false" />
+                    <element signature="method#automate52#0;class#TemporalyPattern#0" expanded="false" />
+                    <element signature="method#automate62#0;class#TemporalyPattern#0" expanded="false" />
+                    <element signature="method#automate63#0;class#TemporalyPattern#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FiniteTransition.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteTransition.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FiniteState.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteState.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FiniteAutomaton.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomaton.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="237">
+                  <caret line="82" column="46" lean-forward="false" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="TemporalyPattern.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2962">
+                  <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,10 +154,11 @@
         <option value="$PROJECT_DIR$/src/main/java/SVAM/ATMAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteState.java" />
         <option value="$PROJECT_DIR$/src/main/java/automaton/finite/TemporalyPattern.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomatonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SVAM/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomaton.java" />
         <option value="$PROJECT_DIR$/src/main/java/SVAM/ATM_FSM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java" />
       </list>
     </option>
   </component>
@@ -188,8 +190,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,13 +211,6 @@
               <item name="SvamTP" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="ATM.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="SvamTP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SvamTP" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="ATM.jar" type="ab9368bb:PsiFileNode" />
-              <item name="svam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SvamTP" type="b2602c69:ProjectViewProjectNode" />
@@ -262,8 +259,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,18 +273,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sammy\Documents\Info\SvamTP\src\main\java\automaton\finite" />
-      <recent name="C:\Users\Sammy\Documents\Info\SvamTP\src\main\java" />
-      <recent name="C:\Users\Sammy\Documents\Info\SvamTP" />
-      <recent name="C:\Users\Darkness-S\Documents\Info\SvamTP\src" />
-      <recent name="C:\Users\Darkness-S\Documents\Info\SvamTP\src\main\java\SVAM" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sammy\Documents\Info\SvamTP\src\main\java\automaton\finite" />
       <recent name="C:\Users\Sammy\Documents\Info\SvamTP\src\main\java" />
       <recent name="C:\Users\Darkness-S\Documents\Info\SvamTP\lib" />
       <recent name="C:\Users\Darkness-S\Documents\Info\SvamTP\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sammy\Documents\Info\SvamTP\lib" />
+      <recent name="C:\Users\Sammy\Documents\Info\SvamTP\src" />
+      <recent name="C:\Users\Sammy\Documents\Info\SvamTP\src\main\java\automaton\finite" />
+      <recent name="C:\Users\Sammy\Documents\Info\SvamTP\src\main\java" />
+      <recent name="C:\Users\Sammy\Documents\Info\SvamTP" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -527,8 +522,19 @@
       <workItem from="1517163906012" duration="55000" />
       <workItem from="1517177135457" duration="938000" />
       <workItem from="1517179656558" duration="11000" />
-      <workItem from="1517242099856" duration="2962000" />
+      <workItem from="1517242099856" duration="3858000" />
+      <workItem from="1517249723522" duration="160000" />
+      <workItem from="1517510217723" duration="1784000" />
+      <workItem from="1517520696669" duration="8457000" />
     </task>
+    <task id="LOCAL-00001" summary="Finish automata, started link">
+      <created>1517245796272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517245796272</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -537,11 +543,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10805000" />
+    <option name="totallyTimeSpent" value="22102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -549,14 +554,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13272922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -579,8 +584,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish automata, started link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish automata, started link" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -588,15 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="366:606" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="639:650" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="666:672" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="704:715" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="735:741" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="781:1151" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,21 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="361:384" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="442:465" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="498:521" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="558:581" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="629:652" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="686:709" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="740:763" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="795:818" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="850:873" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="900:923" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="948:1073" ph="{...}" />
-            <marker date="1516182422000" expanded="true" signature="1044:1067" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,9 +649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,16 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="false" signature="204:215" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="235:241" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="275:286" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="307:313" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="350:507" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="549:560" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="588:594" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,15 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="366:606" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="639:650" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="666:672" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="704:715" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="735:741" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="781:1151" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,21 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="361:384" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="442:465" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="498:521" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="558:581" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="629:652" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="686:709" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="740:763" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="795:818" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="850:873" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="900:923" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="948:1073" ph="{...}" />
-            <marker date="1516182422000" expanded="true" signature="1044:1067" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,9 +694,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
           <caret line="103" column="5" lean-forward="false" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,9 +710,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,16 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="false" signature="204:215" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="235:241" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="275:286" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="307:313" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="350:507" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="549:560" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="588:594" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,15 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="366:606" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="639:650" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="666:672" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="704:715" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="735:741" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="781:1151" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,21 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="361:384" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="442:465" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="498:521" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="558:581" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="629:652" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="686:709" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="740:763" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="795:818" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="850:873" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="900:923" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="948:1073" ph="{...}" />
-            <marker date="1516182422000" expanded="true" signature="1044:1067" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,9 +755,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="98" column="7" lean-forward="false" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,9 +771,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,16 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="false" signature="204:215" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="235:241" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="275:286" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="307:313" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="350:507" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="549:560" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="588:594" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,15 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="366:606" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="639:650" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="666:672" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="704:715" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="735:741" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="781:1151" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,21 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="361:384" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="442:465" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="498:521" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="558:581" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="629:652" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="686:709" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="740:763" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="795:818" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="850:873" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="900:923" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="948:1073" ph="{...}" />
-            <marker date="1516182422000" expanded="true" signature="1044:1067" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,9 +816,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="7" lean-forward="false" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -960,16 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="false" signature="204:215" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="235:241" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="275:286" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="307:313" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="350:507" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="549:560" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="588:594" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,21 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="3:117" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="361:384" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="442:465" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="498:521" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="558:581" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="629:652" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="686:709" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="740:763" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="795:818" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="850:873" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="900:923" ph="{}" />
-            <marker date="1516182422000" expanded="true" signature="948:1073" ph="{...}" />
-            <marker date="1516182422000" expanded="true" signature="1044:1067" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,15 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1516182422000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516182422000" expanded="true" signature="366:606" ph="{...}" />
-            <marker date="1516182422000" expanded="false" signature="639:650" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="666:672" ph=" }" />
-            <marker date="1516182422000" expanded="false" signature="704:715" ph=" { " />
-            <marker date="1516182422000" expanded="false" signature="735:741" ph=" }" />
-            <marker date="1516182422000" expanded="true" signature="781:1151" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,44 +853,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/26972263_10212792389819424_1850296816_o.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomaton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/Nouveau dossier/Pattern/src/main/java/SVAM/TemporalyPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/Nouveau dossier/Pattern/src/main/java/SVAM/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://H:/Nouveau dossier/Pattern/src/main/java/SVAM/TemporalyPattern.java" />
+    <entry file="file://H:/Nouveau dossier/Pattern/src/main/java/SVAM/App.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/automaton/Transition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,59 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SVAM/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteTransition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-997">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomatonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/ATMAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,16 +890,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/SampleFSM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        <state relative-caret-position="816">
+          <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SVAM/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomaton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="82" column="46" lean-forward="false" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/ATMAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteTransition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/automaton/finite/FiniteAutomatonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26972263_10212792389819424_1850296816_o.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/ATM_FSM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="295" column="25" lean-forward="false" selection-start-line="295" selection-start-column="25" selection-end-line="295" selection-end-column="25" />
+        <state relative-caret-position="-600">
+          <caret line="471" column="45" lean-forward="false" selection-start-line="471" selection-start-column="45" selection-end-line="471" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SVAM/TemporalyPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2962">
+          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
           <folding />
         </state>
       </provider>
